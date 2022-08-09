@@ -65,7 +65,7 @@ body {
     border-radius: 20px;
     font-size: 1.0rem;
     font-style: italic;
-    color: #4F4F4F;
+    color: #808080;
     padding: 10px 5px 10px 10px;
     /* border: 1px solid red; */
 }
@@ -125,3 +125,4 @@ body {
 .wrapper a:hover {
     color: #039BE5;
 }
+
