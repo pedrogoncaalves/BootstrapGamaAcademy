@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+
+body {
+    background: linear-gradient(-45deg, #4B0082,  #8A2BE2, #191970);
+    background-size: 400% 400%;
+
+
+
+
+
+    animation: backgroundTransition 8s ease-in-out infinite;
+ transition: .4s cubic-bezier(0.55,0.025,0.675,0.97);
+
+    background-size: 400% 400%;
+}
+
+
+
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+}
+
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #DCDCDC;
+    border-radius: 15px;
+}
+
+
+
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    
+}
+
+
+.wrapper .form-field input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 1.0rem;
+    font-style: italic;
+    color: #4F4F4F;
+    padding: 10px 5px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
+    letter-spacing: 1.3px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: #DCDCDC;
+}
+.form-check  {
+    display: flex;
+    justify-content: center;
+   padding: 10px;
+}
+.form-check-label {
+    padding-left: 10px;
+
+}
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    color: whitesmoke;
+    background-color: #FF6347;
+   
+    border-radius: 25px;
+    
+    letter-spacing: 1.3px;
+}
+.card-header {
+    display: flex;
+    justify-content: center;
+    
+    color: #696969;
+}
+.wrapper .btn:hover {
+    background-color: #FF4500;
+}
+.form-check mb-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #696969;
+}
+
+.wrapper a:hover {
+    color: #039BE5;
+}
